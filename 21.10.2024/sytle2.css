@@ -1,0 +1,32 @@
+.header{
+  background-color: goldenrod;
+  color:white;
+  text-align: center;
+  padding: 3vh 0;
+
+}
+.header img{width:200px;margin-top: 30px}
+.header h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;;
+  padding-bottom: 30px;
+  text-shadow: rgba(0,0,0,1,)2px 2px 3px;/* yazıya gölge*/
+
+}
+.navbar{background-color: black;margin-bottom: 2vh;}
+.navbar a{color: white;
+text-decoration: none;
+display:inline-block;
+padding: 1vh 2vw;
+}
+.navbar a:hover{background-color: rgb(101, 65, 141);color: black;}/*üzerine gelince renk değiştirir kutnun*/
+.urun{
+  display: inline-block;
+  border: 1px solid gray;
+  margin: 2.5vh; }
+
+.urun .yazi{padding-left: 4vw;}
+.urun h3{color:darkred;}
+.footer{background-color: black;color: lightgray;
+
+}
